@@ -1,4 +1,9 @@
-1/30/2023
+1/30/2023 - 2/5/2023
 	Finished our presentation to the class
 	Effectively started progress on the project
 	Posted v1 UML wireframe of the website
+	We still do not have a name for the website
+	
+	Back-end progress:
+
+	Front-end progress:

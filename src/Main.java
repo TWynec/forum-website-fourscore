@@ -20,24 +20,20 @@ public class Main {
 
     // Could use args to pass in a path to a file holding an arraylist of users
     public static void main(String[] args) throws MalformedURLException {
-        users.addUser(new Profile("ted", "ted", "ted@ted.ted", "2/2/2000", "I'm ted", null));
+        users.addUser(new Profile("ted", "ted", "ted@ted.ted", "2/2/2002", "I'm ted", null));
         run();
     }
 
     public static void run() throws MalformedURLException {
 
         int choice = selection();
-        String username, password, email, dob;
         Profile temp = null;
         switch (choice) {
             case 1:
-                username = createUsername();
-                password = getPassword();
-                email = getEmail();
-                dob = getDOB();
-                users.addUser(new Profile(username, password, email, dob, "Tell us about you!", new ImageIcon(new URL("https://st3.depositphotos.com/1767687/16607/v/450/depositphotos_166074422-stock-illustration-default-avatar-profile-icon-grey.jpg"))));
+                Profile newUser = createProfile();
+                users.addUser(newUser);
                 System.out.println("Your profile has been created! Logging you in...");
-                loggedIn = users.login(new Credentials(username, password));
+                loggedIn = users.login(new Credentials(newUser.getUsername(), newUser.getPassword()));
                 break;
             case 2:
                 if (loggedIn != null) {
@@ -107,6 +103,20 @@ public class Main {
         }
         again = true;
         run();
+    }
+
+    public static Profile createProfile() {
+        String username = createUsername();
+        String password = getPassword();
+        String email = getEmail();
+        String dob = getDOB();
+        try {
+            return new Profile(username, password, email, dob, "Tell us about you!", new ImageIcon(new URL("https://st3.depositphotos.com/1767687/16607/v/450/depositphotos_166074422-stock-illustration-default-avatar-profile-icon-grey.jpg")));
+        }
+        catch (MalformedURLException e) {
+            System.out.println("Invalid Avatar URL");
+            return new Profile(username, password, email, dob, "Tell us about you!", null);
+        }
     }
 
     public static String getUsername() {

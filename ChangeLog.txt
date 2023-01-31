@@ -2,6 +2,7 @@
 	Finished our presentation to the class
 	Effectively started progress on the project
 	Posted v1 UML wireframe of the website
+	Posted the v1 UML for database schema
 	We still do not have a name for the website
 	
 	Back-end progress:

@@ -1,0 +1,16 @@
+.post-author {
+    font-weight: bold;
+}
+
+#btn-post{
+    cursor: pointer;
+    color: white;
+    width: 175px;
+    height: 60px;
+    background-color: #66A7C5;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    float: right;
+    margin-right: 50px;
+}

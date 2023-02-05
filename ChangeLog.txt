@@ -6,5 +6,9 @@
 	We still do not have a name for the website
 	
 	Back-end progress:
+			Congregation.js started
 
 	Front-end progress:
+			index.html started
+			style.css started
+			

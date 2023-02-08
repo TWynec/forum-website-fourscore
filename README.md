@@ -12,8 +12,9 @@ https://docs.google.com/document/d/1NPWpYAwBD5oAPUVvpAJWj2N7lKmisHru3RZEa26Zu4k/
 	We still do not have a name for the website
 	
 	Back-end progress:
-			Congregation.js started
-
+			Added Java files for backend
+		
 	Front-end progress:
 			index.html started
 			style.css started
+			Congregation.js started

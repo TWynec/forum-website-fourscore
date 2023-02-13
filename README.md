@@ -1,7 +1,7 @@
 Group project website for CSCD 378
 ## Instructions
-- Install npm. If you are using Windows, it can help to install 'node version manager' from github.
-- CD into the directory. 
+- Install npm and node. If you are using Windows, it can help to install 'node version manager' from github.
+- CD into the directory where the website is located. 
 - Type "npm start"
 - The website should open automatically in your default browser, if not try to open src/Index.js
 

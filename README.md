@@ -1,4 +1,9 @@
 Group project website for CSCD 378
+## Instructions
+Install npm. If you are using Windows, it can help to install 'nvm' from github.
+CD into the directory. 
+Type "npm start"
+The website should open automatically in your default browser, if not try to open src/Index.js
 
 ## Website Research
 https://docs.google.com/document/d/1NPWpYAwBD5oAPUVvpAJWj2N7lKmisHru3RZEa26Zu4k/edit#

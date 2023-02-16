@@ -1,0 +1,67 @@
+Figma link https://www.figma.com/file/AZycPXiZIqQsa9lNffaDlw/Anna's-team-library?node-id=414%3A5&t=J3pj1e4lYDwIZcgb-0
+
+Search-button{
+  position: absolute;
+  width: 89px;
+  height: 48px;
+  left: 1313px;
+  top: 39px;
+
+  background: #D9D9D9;
+  border-radius: 0px 23px 23px 0px;
+}
+
+search-bar{
+  position: absolute;
+  width: 337px;
+  height: 48px;
+  left: 1065px;
+  top: 39px;
+
+  background: #FFFFFF;
+  border-radius: 23px;
+}
+
+twit-icon{
+  position: absolute;
+  width: 139px;
+  height: 123px;
+  left: 0px;
+  top: 0px;
+
+  background: url(2955-removebg-preview.png);
+}
+
+title-of-website{
+  position: absolute;
+  width: 422px;
+  height: 70px;
+  left: 130px;
+  top: 28px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 16px;
+  /* or 67% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+website-bar{
+  position: absolute;
+  width: 1440px;
+  height: 125px;
+  left: 0px;
+  top: 0px;
+
+  background: #68C9A6;
+}
+

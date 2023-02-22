@@ -1,9 +1,18 @@
 .sign-in {
-    width:500px;
+    /*width:500px;
     margin: auto;
     max-width: 90%;
     padding: 20px;
     border-radius: 4px;
+    box-shadow: 0 8px 16px;*/
+    position: absolute;
+    width: 578px;
+    height: 465px;
+    left: 449px;
+    top: 278px;
+
+    background: #FFFFFF;
+    border-radius: 23px;
     box-shadow: 0 8px 16px;
 }
 

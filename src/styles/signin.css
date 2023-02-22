@@ -17,7 +17,7 @@
 }
 
 .sign-in button {
-    cursor: pointer;
+    /*cursor: pointer;
     margin-left: 50%;
     width: 120px;
     height: 34px;
@@ -25,7 +25,15 @@
     border: none;
     background: #27a330;
     font-size: 18px;
-    border-radius: 4px;
+    border-radius: 4px;*/
+    position: absolute;
+    width: 578px;
+    height: 465px;
+    left: 449px;
+    top: 278px;
+
+    background: #FFFFFF;
+    border-radius: 23px;
 }
 .sign-in input {
     font-size: 20px;

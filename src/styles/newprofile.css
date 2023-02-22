@@ -1,7 +1,14 @@
 
 .newProfile{
-    margin-left: 30%;
+    /*margin-left: 30%;
+    margin-top: 10%;*/
+    width:500px;
+    margin: auto;
     margin-top: 10%;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 23px;
+    box-shadow: 0 8px 16px;
 }
 #submit, #pic{
     margin-left: 50%;

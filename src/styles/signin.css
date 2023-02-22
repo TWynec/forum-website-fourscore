@@ -27,19 +27,21 @@
     font-size: 18px;
     border-radius: 4px;*/
     position: absolute;
-    width: 578px;
-    height: 465px;
-    left: 449px;
-    top: 278px;
+    width: 195px;
+    height: 64px;
+    left: 750px;
+    top: 617px;
 
-    background: #FFFFFF;
+    background: #68C9A6;
     border-radius: 23px;
+    box-shadow: 0 8px 16px;
 }
 .sign-in input {
     font-size: 20px;
     font-weight: bold;
     padding: 10px 15px;
     margin: 20px;
+    box-shadow: 0 8px 16px;
 }
 
 .sign-in h1 {
@@ -61,4 +63,5 @@
 
     background: #F0EFEF;
     border-radius: 23px;
+    box-shadow: 0 8px 16px;
 }

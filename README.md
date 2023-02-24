@@ -29,17 +29,24 @@ https://docs.google.com/document/d/1NPWpYAwBD5oAPUVvpAJWj2N7lKmisHru3RZEa26Zu4k/
 	Back-end progress:
 	
 	Front-end progress:
+			figma configured properly
 2/13/2023 - 2/19/2023
 	presented our WCAG topics and solutions
 	
-	Back-end progress:
+	Back-end progress: 
+			database queries for jscript written
 	
 	Front-end progress:
+			css started
 	
 2/20/2023 - 2/26/2023
 
-	Back-end progress:
+	Back-end progress: 
+			finished jscript queries
+			started on websocket
+				
 	
-	Front-end progress:
+	Front-end progress: 
+			various skeleton pages added
 	
 	

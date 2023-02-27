@@ -18,6 +18,7 @@ button{
 }
 .content{
     position: absolute;
+    background-color: #F0EFEF;
     width: 846px;
     height: 690px;
     left: 467px;

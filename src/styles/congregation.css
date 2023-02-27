@@ -17,6 +17,7 @@ button{
     box-shadow: 0 8px 16px;
 }
 .post{
+    margin: 10%;
     margin-left: 30%;
     background-color: #F0EFEF;
     border-radius: 23px;

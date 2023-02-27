@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html lang ="en">
+
+<head>
+    <title>New Profile</title>
+    <link rel="stylesheet" href="../styles/newprofile.css">
+</head>
+
+<body>
+	<form action="nowhere.html" method="POST"> <!-- Where will this form go? -->
+		<div class="newProfile">
+		<p>
+			<label for="username">UserName:</label>
+			<input type="text" id="username" name="username">
+		</p>
+
+		<p>
+			<label for="password">Password:</label>
+			<input type="text" id="password" name="password">
+		</p>
+
+		<p>
+			<label for="bio">Bio:</label>
+			<textarea id="bio" name="bio" rows="7" cols="49"></textarea>
+		</p>
+
+		<p>
+			<label for="pic">Choose an Avatar:</label> <br>
+			<input type="file" id="pic" name="pic" accept="image/*">
+		</p>
+
+		<!-- Go back to the login page -->
+		<a href="login.html"> <input id="submit" type="submit" value="Create"> </a>
+		</div>
+
+	</form>
+</body>
+
+</html>

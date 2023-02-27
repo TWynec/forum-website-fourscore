@@ -17,7 +17,7 @@ button{
     box-shadow: 0 8px 16px;
 }
 .content{
-    position: absolute;
+    margin: auto;
     background-color: #F0EFEF;
     width: 846px;
     height: 690px;

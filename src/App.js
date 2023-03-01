@@ -26,7 +26,9 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Routes></Routes>
+        <Routes>
+          <Route exact path="/normal_redirect" render={() => {window.location.href="./Pages/userprofile.html"}} />
+        </Routes>
         <div className="post-list-container">
           {signedIn ? (
             <>

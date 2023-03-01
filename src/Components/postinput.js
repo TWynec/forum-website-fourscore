@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/postinput.css";
 
 function PostInput({ profile, onSubmit }) {
   const [postText, setPostText] = useState("");
@@ -15,7 +16,7 @@ function PostInput({ profile, onSubmit }) {
 
   return (
     <div className="post-input-container">
-      <div className="post-input-avatar">
+      <div className="post-avatar">
         <img src={profile.avatar} alt={profile.name} />
       </div>
       <form onSubmit={handleSubmit} className="post-input-form">

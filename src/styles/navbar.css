@@ -1,4 +1,13 @@
-nav {
+link{
+    background: #68C9A6;
+    font-size: 18px;
+    border-radius: 23px;
+    box-shadow: 0 8px 16px;
+}
+
+
+
+/*nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,5 +39,5 @@ nav {
   
   nav a:hover {
     background-color: #e8f5fe;
-  }
+  }*/
   

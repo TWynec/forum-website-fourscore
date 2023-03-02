@@ -5,7 +5,7 @@ import "../styles/navbar.css";
 
 function navbar() {
   return (
-     <div class="App-header">
+     <div className="App-header">
 
      <nav>
       <ul>

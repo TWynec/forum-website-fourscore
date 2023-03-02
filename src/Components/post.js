@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/post.css";
+//import "../styles/"
 
 function Post({ post }) {
   return (

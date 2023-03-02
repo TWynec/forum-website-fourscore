@@ -16,15 +16,18 @@ nav a {
     transition: background-color 0.2s ease-in-out;
 }
 
-nav {
-    margin-right: 10%;
+nav li {
+    margin-right: 30px;
+}
+
+/*nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e1e8ed;
     padding: 0 15px;
-}
-
-/*
+  }
   
   nav ul {
     display: flex;

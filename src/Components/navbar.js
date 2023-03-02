@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import img from "../styles/2955-removebg-preview.png"
-import "../styles/App.css";
+
 import "../styles/navbar.css";
 
 function navbar() {

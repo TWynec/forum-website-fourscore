@@ -25,7 +25,7 @@ function PostInput({ profile, onSubmit }) {
           onChange={(event) => setPostText(event.target.value)}
           placeholder={`Say something`}
         />
-        <button type="submit">Post</button>
+        <button id="postbtn" type="submit">Post</button>
       </form>
     </div>
   );

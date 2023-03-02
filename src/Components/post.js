@@ -18,9 +18,9 @@ function Post({ post }) {
         )}
       </div>
       <div className="post-actions">
-        <button>Like</button>
-        <button>Comment</button>
-        <button>Share</button>
+        <button id="like">Like</button>
+        <button id="comment">Comment</button>
+        <button id="share">Share</button>
       </div>
     </div>
   );

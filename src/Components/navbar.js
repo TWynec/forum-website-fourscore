@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/navbar.css";
+import "../styles/App.css";
 
 function navbar() {
   return (
+     <div class="App-header">
     <nav>
       <ul>
         <li>
@@ -14,6 +15,7 @@ function navbar() {
         </li>
       </ul>
     </nav>
+     </div>
   );
 }
 

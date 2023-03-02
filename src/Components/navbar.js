@@ -6,7 +6,7 @@ import "../styles/navbar.css";
 function navbar() {
   return (
      <div class="App-header">
-       <img class="App-logo" src="2955-removebg-preview.png" alt="Website Logo">
+
      <nav>
       <ul>
         <li>

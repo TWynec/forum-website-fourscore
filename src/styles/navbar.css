@@ -7,7 +7,7 @@ link{
 
 
 
-/*nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@ link{
   }
   
   nav li {
-    margin-right: 15px;
+    margin-leftt: 15px;
   }
   
   nav a {
@@ -39,5 +39,5 @@ link{
   
   nav a:hover {
     background-color: #e8f5fe;
-  }*/
+  }
   

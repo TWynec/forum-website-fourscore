@@ -1,5 +1,5 @@
 .post{
-  position: center;
+  position: absolute;
     top: 100px;
     left: 100px;
 }
@@ -22,6 +22,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-top: 20%;
 }
   
 .post-content {
@@ -30,7 +31,7 @@
   
 .post-username {
     font-weight: bold;
-    margin-bottom: 4px;
+    margin-bottom: 50px;
 }
   
 .post-text {

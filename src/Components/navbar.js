@@ -8,6 +8,7 @@ function navbar() {
   return (
      <div className="App-header">
          <img className="App-logo" src={img} alt="Website Logo"/>
+         <p className="App-title">Knock off Twitter</p>
      <nav>
       <ul>
         <li>

@@ -5,9 +5,18 @@ link{
     box-shadow: 0 8px 16px;
 }
 
+nav a {
+    margin-right: 10%;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 50px;
+    transition: background-color 0.2s ease-in-out;
+}
 
-
-nav {
+/*nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +33,7 @@ nav {
   }
   
   nav li {
-    margin-leftt: 15px;
+    margin-right: 15px;
   }
   
   nav a {
@@ -40,4 +49,4 @@ nav {
   nav a:hover {
     background-color: #e8f5fe;
   }
-  
+  */

@@ -6,7 +6,7 @@ import "../styles/navbar.css";
 
 function navbar() {
   return (
-     <div >
+     <div className="App-header">
          <img className="App-logo" src={img} alt="Website Logo"/>
          <p className="App-title">Knock off Twitter</p>
      <nav>

@@ -19,7 +19,7 @@ function Post({ post }) {
         )}
       </div>
       <div className="post-actions">
-        <button id="like">Like <img src={img} /></button>
+        <button id="like">Like <img className="likeimg" src={img} /></button>
         <button id="comment">Comment</button>
         <button id="share">Share</button>
       </div>

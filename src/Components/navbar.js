@@ -15,7 +15,7 @@ function navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/new-profile">New Profile</Link>
+          <Link to="/new-profile">NewProfile</Link>
         </li>
       </ul>
     </nav>

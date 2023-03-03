@@ -17,8 +17,16 @@ nav a {
 }
 
 nav li {
-    margin-top: 25px;
-    margin-left: 85%;
+    display: inline;
+    width: auto;
+    float: right;
+    padding: 20px;
+    padding-right: 5%;
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
 }
 
 /*nav {

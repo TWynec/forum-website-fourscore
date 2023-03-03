@@ -50,3 +50,16 @@ https://docs.google.com/document/d/1NPWpYAwBD5oAPUVvpAJWj2N7lKmisHru3RZEa26Zu4k/
 			various skeleton pages added
 	
 	
+2/27/2023 - 3/5/2023
+	Started implementation of cookies
+	Core of the website still under development
+	Back-end data structures almost finished
+	
+	Back-end progress:
+			Copied all queries from jscript to Springboot
+			
+	Front-end progress:
+			Furthered development of CSS code
+			Polished the React code
+			Implemented Avatars for users
+			

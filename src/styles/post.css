@@ -54,12 +54,27 @@
     white-space: pre-wrap;
 }
 
-#share #comment{
+#share {
     margin-top: 8%;
     background: #68C9A6;
     font-size: 18px;
     border-radius: 23px;
     box-shadow: 0 8px 16px;
 }
-  
+
+#comment{
+    margin-top: 8%;
+    background: #68C9A6;
+    font-size: 18px;
+    border-radius: 23px;
+    box-shadow: 0 8px 16px;
+}
+
+#like{
+    margin-top: 8%;
+    background: #68C9A6;
+    font-size: 18px;
+    border-radius: 23px;
+    box-shadow: 0 8px 16px;
+}
   

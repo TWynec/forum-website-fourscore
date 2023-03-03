@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/post.css";
+import img from "../styles/love-transparent-heart-png-hd-3.png";
 
 function Post({ post }) {
   return (
@@ -18,7 +19,7 @@ function Post({ post }) {
         )}
       </div>
       <div className="post-actions">
-        <button id="like">Like</button>
+        <button id="like">Like <img src={img} /></button>
         <button id="comment">Comment</button>
         <button id="share">Share</button>
       </div>

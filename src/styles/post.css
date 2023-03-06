@@ -84,4 +84,17 @@
     width: 13px;
     height: 13px;
 }
+#like:hover{
+    background-color: #297456;
+    color: #FFFFFF;
+}
+#comment:hover{
+    background-color: #297456FF;
+    color: #FFFFFF;
+}
+
+#share:hover{
+    background-color: #297456FF;
+    color: #FFFFFF;
+}
   

@@ -10,7 +10,8 @@
     background: #68C9A6;
     font-size: 18px;
     border-radius: 23px;
-    box-shadow: 0 8px 16px;
+    /*box-shadow: 0 8px 16px;*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }
 form{
     margin-top: 7%;

@@ -55,27 +55,30 @@
 }
 
 #share {
-    margin-top: 8%;
+    /*margin-top: 5%;*/
     background: #68C9A6;
     font-size: 18px;
     border-radius: 23px;
-    box-shadow: 0 8px 16px;
+    /*box-shadow: 0 8px 8px;*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }
 
 #comment{
-    margin-top: 8%;
+    /*margin-top: 8%;*/
     background: #68C9A6;
     font-size: 18px;
     border-radius: 23px;
-    box-shadow: 0 8px 16px;
+    /*box-shadow: 0 8px 8px;*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }
 
 #like{
-    margin-top: 8%;
+    /*margin-top: 8%;*/
     background: #68C9A6;
     font-size: 18px;
     border-radius: 23px;
-    box-shadow: 0 8px 16px;
+    /*box-shadow: 0 8px 8px;*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }
 .likeimg{
     width: 13px;

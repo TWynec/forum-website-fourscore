@@ -3,24 +3,24 @@ import "../styles/newprofile.css";
 
 function NewProfile() {
   return (
-    <form action="nowhere.html" method="POST">
-      <div className="newProfile">
+    <form action="nowhere.html" method="POST" className="newProfile">
+      <div>
         <p>
           <label htmlFor="username">UserName:</label>
-          <input type="text" id="username" name="username" />
+          <input type="text" id="username" name="username" placeholder="Username"/>
         </p>
 
         <p>
           <label htmlFor="password">Password:</label>
-          <input type="text" id="password" name="password" />
+          <input type="text" id="password" name="password" placeholder="Password"/>
         </p>
 
         <p>
           <label htmlFor="bio">Bio:</label>
-          <textarea id="bio" name="bio" rows="7" cols="49"></textarea>
+          <textarea id="bio" name="bio" rows="7" cols="49" ></textarea>
         </p>
 
-        <button type="submit">Create Account</button>
+        <button id="newAccount" type="submit">Create Account</button>
       </div>
     </form>
   );

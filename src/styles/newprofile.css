@@ -6,7 +6,7 @@
     max-width: 90%;
     padding: 20px;
     border-radius: 23px;
-    box-shadow: 0 8px 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }
 #submit, #pic{
     margin-left: 50%;
@@ -18,7 +18,7 @@
     background: #68C9A6;
     font-size: 18px;
     border-radius: 23px;
-    box-shadow: 0 8px 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }
 #username, #password{
     /*width: 100%;
@@ -37,7 +37,7 @@
 
     background: #FFFFFF;
     border-radius: 23px;
-    box-shadow: 0 8px 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }
 
 #bio{
@@ -48,12 +48,25 @@
     /*border-radius: 4px;*/
 
     /*position: absolute;*/
-   width: 380px;
+    width: 380px;
     height: 100px;
     left: 543px;
     top: 379px;
 
     background: #FFFFFF;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+}
+
+#newAccount{
+    margin-right: 70%;
+    width: 150px;
+    height: 34px;
+    right: 150px;
+    top: 750px;
+
+    background: #68C9A6;
+    font-size: 18px;
     border-radius: 23px;
-    box-shadow: 0 8px 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }

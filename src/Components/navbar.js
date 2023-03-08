@@ -17,7 +17,7 @@ function navbar() {
             <Link to="/newprofile">Profile</Link>
           </li>
           <li>
-            <Link to="/signin">Sign In</Link>
+            <Link to="/signin">Sign~In</Link>
           </li>
         </ul>
       </nav>

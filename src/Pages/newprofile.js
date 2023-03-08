@@ -3,7 +3,7 @@ import "../styles/newprofile.css";
 
 function NewProfile() {
   return (
-    <form action="nowhere.html" method="POST" className="newProfile">
+    <form action="" method="" className="newProfile">
       <div>
         <p>
           <label htmlFor="username">UserName:</label>

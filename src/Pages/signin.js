@@ -5,7 +5,7 @@ import img from "../styles/2955-removebg-preview.png";
 
 function SignIn() {
     return (
-        <div className="sign-in">
+        <form className="sign-in">
 
             <img id={"img"} src={img} />
             <h1>Sign In</h1>
@@ -17,7 +17,7 @@ function SignIn() {
             <button type="submit">Sign In</button>
 
             <Link to="/newprofile">New here? Create an account!</Link>
-        </div>
+        </form>
     );
 }
 

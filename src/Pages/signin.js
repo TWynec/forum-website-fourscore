@@ -8,7 +8,6 @@ function SignIn() {
         <div className="sign-in">
 
             <img id={"img"} src={img} />
-
             <h1>Sign In</h1>
 
             <label htmlFor="username">Username</label>
@@ -17,7 +16,7 @@ function SignIn() {
             <input type="password" id="password" placeholder="Enter password" />
             <button type="submit">Sign In</button>
 
-            <Link to="/newprofile">New? Create an account!</Link>
+            <Link to="/newprofile">New here? Create an account!</Link>
         </div>
     );
 }

@@ -70,3 +70,7 @@
     border-radius: 23px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
 }
+#newAccount:hover{
+    background-color: #297456FF;
+    color: #FFFFFF;
+}

@@ -40,7 +40,8 @@
 }
   
 .post-content {
-    width: 100%;
+    inline-size: 100%;
+    overflow-wrap: break-word;
 }
   
 .post-username {

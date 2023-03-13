@@ -63,3 +63,12 @@ https://docs.google.com/document/d/1NPWpYAwBD5oAPUVvpAJWj2N7lKmisHru3RZEa26Zu4k/
 			Polished the React code
 			Implemented Avatars for users
 			
+3/6/2023 - 3/12/2023
+	Fixed the CSS and functionality for the navbar
+	many CSS additions to navbar, new profile, congregation
+	
+	Back-end progress:
+			Worked on connection between DB and front-end
+	Front-end progress:
+			CSS additions
+	

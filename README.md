@@ -6,6 +6,7 @@ Group project website for CSCD 378
 - The website should open automatically in your default browser, if not try to open src/Index.js
 # Back End Instructions
 ## Database
+- You may be able to open the "Schema" file in a text editor and use the text as a creation script. Otherwise, follow these instructions:
 - Install and run a MySQL Server on Localhost and create a connection to the server in MySQL workbench with the Username and Password set as "root".
 - After opening the connection, in the "Navigator" section, click on "Administration" on the bottom of the section. Then, click "Data Import/Restore", then in the main tab, select "Import from Self-Contained File".
 - Select the file named "Schema" from wherever you download our project.

@@ -7,7 +7,7 @@ Group project website for CSCD 378
 # Back End Instructions
 ## Database
 - Install and run a MySQL Server on Localhost and create a connection to the server in MySQL workbench with the Username and Password set as "root".
-- After opening the connection, in the "Navigator" section, click on "Administation" on the bottom of the section. Then, click "Data Import/Restore", then in the main tab, select "Import from Self-Contained File".
+- After opening the connection, in the "Navigator" section, click on "Administration" on the bottom of the section. Then, click "Data Import/Restore", then in the main tab, select "Import from Self-Contained File".
 - Select the file named "Schema" from wherever you download our project.
 - Then select "Start Import". Everything should be imported under a schema titled "forum".
 ## Spring Boot

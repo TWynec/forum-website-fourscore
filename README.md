@@ -4,6 +4,8 @@ Group project website for CSCD 378
 
 # Screenshots
 ![Main page](public/homepage.PNG)
+![Create account](public/createaccount.PNG)
+![Sign in](public/signin.PNG)
 
 # Front End Instructions
 - Install npm and node. If you are using Windows, it can help to install 'node version manager' from github.

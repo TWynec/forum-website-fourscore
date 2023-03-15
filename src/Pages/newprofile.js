@@ -12,12 +12,12 @@ function NewProfile() {
 
         <p>
           <label htmlFor="password">Password:</label>
-          <input type="text" id="password" name="password" placeholder="Password"/>
+          <input type="password" id="password" name="password" placeholder="Password"/>
         </p>
 
         <p>
-          <label htmlFor="bio">Bio:</label>
-          <textarea id="bio" name="bio" rows="7" cols="49" ></textarea>
+          <label htmlFor="avatar">Link to Avatar:</label>
+          <textarea id="bio" name="avatar" rows="7" cols="49" ></textarea>
         </p>
 
         <button id="newAccount" type="submit">Create Account</button>

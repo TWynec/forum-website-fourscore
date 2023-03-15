@@ -5,7 +5,7 @@ import img from "../styles/2955-removebg-preview.png";
 
 function SignIn() {
     return (
-        <form className="sign-in">
+        <form action="" method="" className="sign-in">
 
             <img id={"img"} src={img} />
             <h1>Sign In</h1>

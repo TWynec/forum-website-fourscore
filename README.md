@@ -1,4 +1,10 @@
 Group project website for CSCD 378
+
+# Table of Contents
+
+# Screenshots
+![Main page](public/homepage.PNG)
+
 # Front End Instructions
 - Install npm and node. If you are using Windows, it can help to install 'node version manager' from github.
 - CD into the directory where the website is located. 
@@ -20,10 +26,10 @@ Group project website for CSCD 378
 - Run the application, and it should launch with no errors. You can access the backend by typing "localhost:8080" (or whatever port it launched on, which it shows in the console) in your browser. This should show a JSON object containing the congregations, posts in the congregations, and comments on those posts. You can also look at the "GetMapping" annotations in the controllers if you would like to test anything specific with the connection between the application and the database.
 
 
-## Website Research
+# Website Research
 https://docs.google.com/document/d/1NPWpYAwBD5oAPUVvpAJWj2N7lKmisHru3RZEa26Zu4k/edit#
 
-## Changelog 
+# Changelog 
 1/30/2023 - 2/5/2023
 	Finished our presentation to the class
 	Effectively started progress on the project

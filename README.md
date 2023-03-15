@@ -1,6 +1,11 @@
 Group project website for CSCD 378
 
 # Table of Contents
++ Screenshots
++ Frontend Installation Instructions
++ Backend Installation Instructions
++ Research
++ Changelog
 
 # Screenshots
 ![Main page](public/homepage.PNG)

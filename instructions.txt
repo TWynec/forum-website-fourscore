@@ -1,0 +1,25 @@
+Also visible in the readme
+
+Front End Instructions
+Install npm and node. If you are using Windows, it can help to install 'node version manager' from github.
+CD into the directory where the website is located.
+Type "npm start"
+The website should open automatically in your default browser, if not try to open src/Index.js
+
+
+Back End Instructions
+
+Database
+You may be able to open the "Schema" file in a text editor and use the text as a creation script. Otherwise, follow these instructions:
+Install and run a MySQL Server on Localhost and create a connection to the server in MySQL workbench with the Username and Password set as "root".
+After opening the connection, in the "Navigator" section, click on "Administration" on the bottom of the section. Then, click "Data Import/Restore", then in the main tab, select "Import from Self-Contained File".
+Select the file named "Schema" from wherever you download our project.
+Then select "Start Import". Everything should be imported under a schema titled "forum".
+
+Spring Boot
+Make sure the database is open and running.
+In IntelliJ, select "New Project From Existing Sources".
+Go to wherever you downloaded our project and select the "SpringBackend" folder.
+Select "Import project from external model", then select "Maven".
+Click finish, then everything should be imported and there should be Run Configuration automatically set up. (You may have to wait for the Maven libraries to import and index if you don't have them already)
+Run the application, and it should launch with no errors. You can access the backend by typing "localhost:8080" (or whatever port it launched on, which it shows in the console) in your browser. This should show a JSON object containing the congregations, posts in the congregations, and comments on those posts. You can also look at the "GetMapping" annotations in the controllers if you would like to test anything specific with the connection between the application and the database.
